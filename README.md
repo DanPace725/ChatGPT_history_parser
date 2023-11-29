@@ -15,6 +15,9 @@ To use this script, you need to:
 
 The output JSON file will be saved to the path specified in `new_file_path_with_speaker`.
 
-Go from this: ![Image](https://github.com/DanPace725/ChatGPT_history_parser/blob/main/Better1.png)
+Go from this: 
+<img src="https://github.com/DanPace725/ChatGPT_history_parser/blob/main/Better1.png" alt="Alt text" width="100" height="100">
+[Image](https://github.com/DanPace725/ChatGPT_history_parser/blob/main/Better1.png)
 
-To this: ![Image](https://github.com/DanPace725/ChatGPT_history_parser/blob/main/Better2.png)
+To this: 
+![Image](https://github.com/DanPace725/ChatGPT_history_parser/blob/main/Better2.png)
