@@ -2,7 +2,7 @@
 import json
 
 # Load the JSON file
-file_path = '11.28.23/conversations.json'
+file_path = '[path to conversation.json file]'
 
 with open(file_path, 'r') as file:
     chat_history = json.load(file)
@@ -39,7 +39,7 @@ for conversation in chat_history:
 new_json_structure_with_speaker = {"conversations": extracted_conversations_with_speaker}
 
 # Save the new structure to a new JSON file
-new_file_path_with_speaker = '11.28.23/extracted_chat_history_with_speaker2.json'
+new_file_path_with_speaker = '[output path]'
 with open(new_file_path_with_speaker, 'w') as new_file:
     json.dump(new_json_structure_with_speaker, new_file, indent=4)
 
