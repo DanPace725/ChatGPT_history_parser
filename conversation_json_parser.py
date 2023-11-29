@@ -35,12 +35,11 @@ for conversation in chat_history:
                         extracted_conversations_with_speaker.insert(0, {"speaker": speaker, "content": part})
             current_node = node.get('parent')
 
-# Create a new JSON structure with conversations and speaker information
-new_json_structure_with_speaker = {"conversations": extracted_conversations_with_speaker}
+
 
 # Save the new structure to a new JSON file
 new_file_path_with_speaker = 'path/to/your/extracted_chat_history_with_speaker.json'
 with open(new_file_path_with_speaker, 'w') as new_file:
-    json.dump(new_json_structure_with_speaker, new_file, indent=4)
+    json.dump(extracted_conversations_with_speaker, new_file, indent=4)
 
 
