@@ -14,3 +14,4 @@ To use this script, you need to:
 - Run the script to generate a new JSON file with the extracted conversation and speaker information.
 
 The output JSON file will be saved to the path specified in `new_file_path_with_speaker`.
+Go from this [Image](https://github.com/DanPace725/ChatGPT_history_parser/blob/main/Better1.png)
