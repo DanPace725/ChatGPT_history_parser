@@ -47,6 +47,6 @@ def split_json_file(input_file, output_dir, max_size_mb=10):
                 json.dump(current_data, out_file)
 
 # Usage
-input_file = '11.28.23\conversations.json'
+input_file = 'path\to\your\conversations.json'
 output_dir = 'split_json'
 split_json_file(input_file, output_dir)
